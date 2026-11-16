@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>OSP Żurowa - Ochotnicza Straż Pożarna w Żurowej, jednostka KSRG</title>
+<meta name="description" content="Ochotnicza Straż Pożarna w Żurowej (gmina Szerzyny) - jednostka KSRG od 2001 r., działa od 1912 r. Aktualności, wyjazdy, wozy, MDP, 1,5% podatku i kontakt.">
+<meta name="theme-color" content="#16120F">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-m-720.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-720.webp 720w, img/hero-m-960.webp 960w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-d-1280.webp" imagesrcset="img/hero-d-960.webp 960w, img/hero-d-1280.webp 1280w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/barlow-condensed-latin-700.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/barlow-latin-400.woff2" crossorigin>
+<style>
+@font-face{font-family:BC;src:url(fonts/barlow-condensed-latin-700.woff2) format("woff2");font-weight:700;font-display:swap;unicode-range:U+0000-00FF,U+2013-2014,U+2018-201E,U+2022,U+2026}
+@font-face{font-family:BC;src:url(fonts/barlow-condensed-pl-700.woff2) format("woff2");font-weight:700;font-display:swap;unicode-range:U+0100-024F}
+@font-face{font-family:Bw;src:url(fonts/barlow-latin-400.woff2) format("woff2");font-weight:400;font-display:swap;unicode-range:U+0000-00FF,U+2013-2014,U+2018-201E,U+2022,U+2026}
+@font-face{font-family:Bw;src:url(fonts/barlow-pl-400.woff2) format("woff2");font-weight:400;font-display:swap;unicode-range:U+0100-024F}
+@font-face{font-family:Bw;src:url(fonts/barlow-latin-600.woff2) format("woff2");font-weight:600;font-display:swap;unicode-range:U+0000-00FF,U+2013-2014,U+2018-201E,U+2022,U+2026}
+@font-face{font-family:Bw;src:url(fonts/barlow-pl-600.woff2) format("woff2");font-weight:600;font-display:swap;unicode-range:U+0100-024F}
+@font-face{font-family:"BC fb";src:local("Arial Narrow"),local("Arial");size-adjust:88%;ascent-override:100%}
+@font-face{font-family:"Bw fb";src:local("Arial");size-adjust:97%;ascent-override:96%}
+:root{--red:#C8101C;--red2:#A60D17;--ink:#1F1A16;--char:#16120F;--mut:#55585F;--g:#EFF0F2;--line:#DCDEE3;--sand:#D4B993;--hh:68px;--w:min(92vw,1760px)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:Bw,"Bw fb",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:clamp(16.5px,.28vw + 15.4px,20px);line-height:1.6;color:var(--ink);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;font-family:BC,"BC fb","Arial Narrow",sans-serif;font-weight:700;line-height:1.02;letter-spacing:-.005em;text-wrap:balance}
+h1{font-size:clamp(44px,4.6vw + 14px,112px);color:#fff}
+h2{font-size:clamp(36px,2.9vw + 16px,84px)}
+h3{font-size:clamp(22px,.7vw + 17px,32px);line-height:1.08}
+p{margin:0}
+.wrap{width:var(--w);margin-inline:auto}
+.sec{padding:clamp(64px,7vw,140px) 0}
+.g{background:var(--g)}
+.lead{font-size:clamp(18px,.45vw + 16px,24px);color:var(--mut);max-width:60ch}
+.btn{display:inline-flex;align-items:center;gap:14px;min-height:56px;padding:0 26px;border:0;border-radius:3px;background:var(--red);color:#fff;font:700 clamp(19px,.3vw + 17px,23px)/1 BC,"BC fb",sans-serif;letter-spacing:.01em;text-decoration:none;cursor:pointer;transition:background .15s}
+.btn:hover{background:var(--red2)}
+.btn svg{width:18px;height:18px;flex:none}
+.kx{width:1em;height:1em;flex:none;fill:var(--red)}
+/* naglowek */
+.top{position:fixed;inset:0 0 auto;z-index:50;height:var(--hh);background:#fff;border-bottom:1px solid var(--line)}
+.top .wrap{height:100%;display:flex;align-items:center;gap:24px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;flex:none}
+.brand img{width:50px;height:47px}
+.brand b{display:block;font:700 25px/1 BC,"BC fb",sans-serif}
+.brand small{display:block;font-size:14px;line-height:1.25;color:var(--mut);margin-top:3px}
+.menu{display:flex;gap:clamp(16px,1.6vw,34px);margin-left:auto}
+.menu a{font:700 19px/1 BC,"BC fb",sans-serif;text-decoration:none;padding:24px 0 21px;border-bottom:3px solid transparent;color:var(--ink)}
+.menu a:hover{color:var(--red)}
+.menu a.on{border-bottom-color:var(--red);color:var(--red)}
+.alarm{flex:none;display:flex;align-items:center;gap:10px;font-size:15px;line-height:1.2;color:var(--mut);padding-left:clamp(14px,1.4vw,28px);border-left:1px solid var(--line)}
+.alarm b{font:700 30px/1 BC,"BC fb",sans-serif;color:var(--red)}
+.burger{display:none;margin-left:auto;width:46px;height:46px;border:0;background:none;padding:12px;cursor:pointer}
+.burger i,.burger i::before,.burger i::after{display:block;width:22px;height:2px;background:var(--ink);position:relative;content:"";transition:transform .2s}
+.burger i::before{position:absolute;top:-7px}.burger i::after{position:absolute;top:7px}
+.top.open .burger i{background:transparent}.top.open .burger i::before{transform:translateY(7px) rotate(45deg)}.top.open .burger i::after{transform:translateY(-7px) rotate(-45deg)}
+/* hero */
+.hero{position:relative;margin-top:var(--hh);min-height:calc(100svh - var(--hh));display:flex;flex-direction:column;justify-content:flex-end;color:#fff;background:var(--char);overflow:hidden}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%}
+.hero picture img{object-fit:cover;object-position:62% 62%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,10,8,.86) 0%,rgba(14,10,8,.62) 34%,rgba(14,10,8,.08) 62%),linear-gradient(0deg,rgba(14,10,8,.55),rgba(14,10,8,0) 40%)}
+.hero .wrap{position:relative;z-index:1;padding:48px 0 clamp(40px,6vh,84px)}
+.hero-in{max-width:min(100%,max(400px,31vw))}
+.hero h1{max-width:12ch}
+.hero .lead{color:#E9E6E2;margin-top:clamp(16px,2vh,26px)}
+.hero .btn{margin-top:clamp(26px,3.4vh,40px)}
+.info{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:clamp(22px,3vh,34px);font-size:clamp(15px,.2vw + 14px,18px);color:#D9D5D0}
+.info span{display:inline-flex;align-items:center;gap:8px}
+.info .kx{width:12px;height:12px}
+/* naglowki sekcji */
+.hd{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.hd .lead{margin-top:16px}
+.nav{display:flex;gap:10px}
+.nav button{width:52px;height:52px;border:1px solid var(--line);background:#fff;border-radius:3px;cursor:pointer;display:grid;place-items:center;color:var(--ink)}
+.nav button:hover{border-color:var(--red);color:var(--red)}
+.nav svg{width:20px;height:20px}
+.nav button[data-k="-1"] svg{transform:scaleX(-1)}
+/* tory */
+.tor{display:grid;grid-auto-flow:column;grid-auto-columns:min(80vw,380px);gap:clamp(16px,1.4vw,28px);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin-top:clamp(28px,3vw,48px);padding-bottom:4px;overscroll-behavior-x:contain}
+.tor::-webkit-scrollbar{display:none}
+.tor>*{scroll-snap-align:start;min-width:0}
+.tor.drag{cursor:grabbing;scroll-snap-type:none}
+.tor.drag *{pointer-events:none}
+.ph{display:block;width:100%;padding:0;border:0;background:var(--g);cursor:zoom-in;overflow:hidden;position:relative}
+.ph img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.ph:hover img{transform:scale(1.03)}
+.news .ph{aspect-ratio:4/3}
+.news time{display:block;font:700 19px/1 BC,"BC fb",sans-serif;color:var(--red);margin-top:18px}
+.news h3{margin-top:8px}
+.news p{margin-top:10px;color:var(--mut);font-size:.94em}
+/* wyjazdy */
+.dk{background:var(--char);color:#fff}
+.dk h2{color:#fff}
+.dk .lead{color:#BDB6AE}
+.log{list-style:none;margin:clamp(32px,3.4vw,56px) 0 0;padding:0;display:grid;gap:0 clamp(32px,4vw,80px);border-top:1px solid #3A332D}
+.log li{display:grid;grid-template-columns:minmax(0,1fr) 128px;gap:18px 24px;padding:24px 0;border-bottom:1px solid #3A332D;align-items:start}
+.log .when{font:700 18px/1.2 BC,"BC fb",sans-serif;color:var(--sand);display:flex;gap:10px;flex-wrap:wrap}
+.log .when span{color:#9A928A}
+.log h3{display:flex;align-items:center;gap:12px;margin-top:8px;color:#fff;font-size:clamp(23px,.7vw + 18px,32px)}
+.log h3 .kx{width:16px;height:16px}
+.log p{margin-top:8px;color:#C9C2BA;font-size:.95em;max-width:62ch}
+.log .ph{aspect-ratio:1;background:#2A241F}
+.sum{margin-top:clamp(28px,3vw,44px);display:flex;flex-wrap:wrap;gap:8px 28px;align-items:baseline;color:#BDB6AE}
+.sum b{color:#fff;font-weight:600}
+/* jednostka */
+.two{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:clamp(32px,5vw,110px);align-items:start}
+.txt p+p{margin-top:16px}
+.txt p{max-width:66ch}
+.fig{margin:0}
+.fig img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.fig figcaption,.arch figcaption{font-size:15px;color:var(--mut);margin-top:10px}
+.os{list-style:none;margin:clamp(40px,4.4vw,72px) 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:0 clamp(24px,3vw,56px)}
+.os li{position:relative;padding:20px 0 22px 40px;border-top:1px solid var(--line)}
+.os li .kx{position:absolute;left:0;top:27px;width:20px;height:20px}
+.os b{display:block;font:700 clamp(30px,1.1vw + 22px,44px)/1 BC,"BC fb",sans-serif;color:var(--red)}
+.os span{display:block;margin-top:8px;color:var(--ink)}
+.arch{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(14px,1.6vw,28px);margin-top:clamp(40px,4vw,64px)}
+.arch .ph{aspect-ratio:16/10;background:#ddd}
+.arch .ph img{filter:grayscale(1)}
+.zarzad{margin-top:clamp(48px,5vw,88px);padding-top:clamp(32px,3vw,48px);border-top:3px solid var(--ink)}
+.zarzad h3{font-size:clamp(28px,1.2vw + 20px,44px)}
+.zarzad dl{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr));gap:22px clamp(20px,2.4vw,44px);margin:26px 0 0}
+.zarzad dt{font-size:15px;color:var(--mut)}
+.zarzad dd{margin:4px 0 0;font:700 24px/1.1 BC,"BC fb",sans-serif}
+/* wozy */
+.cars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(16px,1.8vw,32px);margin-top:clamp(32px,3.4vw,56px)}
+.car{background:#fff;display:flex;flex-direction:column}
+.car .ph{aspect-ratio:3/2}
+.car-in{padding:clamp(20px,1.8vw,32px)}
+.kr{display:flex;align-items:center;font:700 clamp(44px,2vw + 30px,72px)/1 BC,"BC fb",sans-serif;color:var(--ink);letter-spacing:.01em}
+.kr i{font-style:normal;display:inline-grid;place-items:center;width:.62em;height:.66em;margin:0 .08em;border:2px solid currentColor;font-size:.42em;line-height:1;align-self:center}
+.car h3{margin-top:10px;color:var(--red)}
+.car dl{display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px 18px;margin:20px 0 0;font-size:.94em}
+.car dt{color:var(--mut)}
+.car dd{margin:0;font-weight:600}
+.eq{margin-top:clamp(36px,3.6vw,60px);display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,2fr);gap:clamp(24px,4vw,80px)}
+.eq ul{list-style:none;margin:0;padding:0;columns:3 260px;column-gap:clamp(24px,3vw,56px)}
+.eq li{display:flex;gap:12px;align-items:baseline;break-inside:avoid;padding:8px 0;border-bottom:1px solid var(--line)}
+.eq li .kx{width:12px;height:12px;transform:translateY(1px)}
+/* mdp */
+.mdp .tor{grid-auto-columns:min(80vw,440px)}
+.mdp figure{margin:0}
+.mdp .ph{aspect-ratio:4/3}
+.mdp figcaption{font-size:15px;color:var(--mut);margin-top:10px}
+.facts{list-style:none;margin:24px 0 0;padding:0}
+.facts li{display:flex;gap:14px;align-items:baseline;padding:12px 0;border-top:1px solid var(--line)}
+.facts li .kx{width:14px;height:14px;transform:translateY(2px)}
+/* 1,5% */
+.pit{background:var(--red);color:#fff;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}
+.pit-in{padding:clamp(64px,7vw,140px) clamp(24px,4vw,80px) clamp(64px,7vw,140px) calc((100vw - var(--w))/2)}
+.pit h2{color:#fff;max-width:18ch}
+.pit .lead{color:#FFE3E0;margin-top:20px}
+.krs{margin-top:clamp(28px,3vw,44px);display:flex;flex-wrap:wrap;gap:20px 40px;align-items:flex-end}
+.krs div small{display:block;font-size:15px;color:#FFD0CB}
+.krs div b{display:block;font:700 clamp(40px,2.4vw + 22px,76px)/1 BC,"BC fb",sans-serif;letter-spacing:.02em;margin-top:6px}
+.cel{margin-top:22px;background:#fff;color:var(--ink);padding:18px 22px;max-width:640px;border-left:6px solid var(--char)}
+.cel small{display:block;font-size:15px;color:var(--mut)}
+.cel b{display:block;font:700 clamp(22px,.6vw + 18px,30px)/1.15 BC,"BC fb",sans-serif;margin-top:4px}
+.pit .note{margin-top:20px;color:#FFE3E0;font-size:.94em;max-width:60ch}
+.pit-ph{position:relative;min-height:420px}
+.pit-ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+/* kontakt */
+.kt{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(24px,3vw,56px);margin-top:clamp(32px,3.4vw,56px)}
+.kt h3{font-size:clamp(24px,.6vw + 20px,32px);padding-bottom:12px;border-bottom:3px solid var(--red)}
+.kt p,.kt li{margin-top:12px}
+.kt ul{list-style:none;margin:0;padding:0}
+.kt small{display:block;color:var(--mut);font-size:15px}
+.kt a{text-decoration:none;font-weight:600}
+.kt a:hover{color:var(--red)}
+.kt2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,3vw,56px);margin-top:clamp(40px,4vw,72px)}
+.mapa{background:#DADDE2;min-height:440px;position:relative}
+.mapa iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+form{display:grid;grid-template-columns:1fr 1fr;gap:16px;background:#fff;padding:clamp(22px,2.4vw,40px);align-content:start}
+form h3{grid-column:1/-1}
+form label{display:grid;gap:6px;font-size:15px;color:var(--mut)}
+form .full{grid-column:1/-1}
+input,textarea{font:inherit;color:var(--ink);border:1px solid #C9CCD3;border-radius:3px;padding:13px 14px;background:#fff;width:100%}
+input:focus,textarea:focus{outline:2px solid var(--red);outline-offset:1px;border-color:var(--red)}
+[aria-invalid="true"]{border-color:var(--red)}
+textarea{min-height:130px;resize:vertical}
+form .btn{justify-self:start}
+.msg{grid-column:1/-1;background:#E8F4EA;color:#123D1C;padding:14px 16px;border-left:4px solid #1F7A35}
+.note2{grid-column:1/-1;font-size:14px;color:var(--mut)}
+/* stopka */
+footer{background:var(--char);color:#B9B1A8;padding:clamp(48px,5vw,80px) 0 28px;font-size:16px}
+.fg{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px clamp(24px,3vw,56px)}
+footer h4{margin:0 0 12px;color:#fff;font:700 21px/1 BC,"BC fb",sans-serif}
+footer ul{list-style:none;margin:0;padding:0}
+footer li{margin:6px 0}
+footer a{text-decoration:none}
+footer a:hover{color:#fff}
+.fbrand{display:flex;gap:14px;align-items:center}
+.fbrand img{width:56px;height:52px}
+.fbrand b{color:#fff;font:700 24px/1.05 BC,"BC fb",sans-serif;display:block}
+.fb{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 24px;align-items:center;margin-top:40px;padding-top:22px;border-top:1px solid #3A332D;font-size:15px}
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:90;background:rgba(10,8,6,.94);display:none;align-items:center;justify-content:center;flex-direction:column;padding:56px 12px 20px}
+.lb.on{display:flex}
+.lb img{max-width:min(94vw,1400px);max-height:80vh;width:auto;height:auto;object-fit:contain}
+.lb p{color:#ddd;margin-top:14px;text-align:center;font-size:16px;max-width:70ch}
+.lb button{position:absolute;width:52px;height:52px;border:0;border-radius:3px;background:rgba(255,255,255,.12);color:#fff;cursor:pointer;display:grid;place-items:center;font-size:30px;line-height:1}
+.lb button:hover{background:rgba(255,255,255,.24)}
+.lb svg{width:20px;height:20px}
+.lb .x{top:12px;right:12px}
+.lb .pv{left:12px;top:50%;transform:translateY(-50%)}
+.lb .nx{right:12px;top:50%;transform:translateY(-50%)}
+.lb .pv svg{transform:scaleX(-1)}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+/* szerokie ekrany */
+@media (min-width:1100px){.news .tor{grid-auto-columns:calc((100% - 3*clamp(16px,1.4vw,28px))/4)}}
+@media (min-width:1800px){.news .tor{grid-auto-columns:calc((100% - 4*clamp(16px,1.4vw,28px))/5)}.mdp .tor{grid-auto-columns:calc((100% - 3*clamp(16px,1.4vw,28px))/4)}}
+@media (min-width:1300px){.log{grid-template-columns:1fr 1fr}.log li{grid-template-columns:minmax(0,1fr) 150px}}
+/* tablet i telefon */
+@media (max-width:1240px){.alarm{display:none}}
+@media (max-width:1060px){
+.menu{position:fixed;top:var(--hh);left:0;right:0;flex-direction:column;gap:0;background:#fff;padding:8px 4vw 20px;border-bottom:1px solid var(--line);display:none;max-height:calc(100svh - var(--hh));overflow:auto}
+.top.open .menu{display:flex}
+.menu a{padding:15px 0;border-bottom:1px solid var(--line);font-size:23px}
+.menu a.on{border-bottom-color:var(--line)}
+.burger{display:block}
+.cars{grid-template-columns:1fr 1fr}
+.kt{grid-template-columns:1fr 1fr}
+.fg{grid-template-columns:1fr 1fr}
+.fg>div:first-child{grid-column:1/-1}
+}
+@media (max-width:860px){
+.two,.eq,.kt2{grid-template-columns:1fr}
+.pit{grid-template-columns:1fr}
+.pit-in{padding:64px 4vw}
+.pit-ph{min-height:0;aspect-ratio:4/3}
+.cars{grid-template-columns:1fr}
+.arch{grid-template-columns:1fr 1fr}
+.arch figure:last-child{grid-column:1/-1}
+}
+@media (max-width:760px){
+:root{--hh:62px}
+.brand img{width:44px;height:41px}
+.brand b{font-size:23px}
+.brand small{font-size:13px}
+.hero picture img{object-position:50% 40%}
+.hero::after{background:linear-gradient(0deg,rgba(14,10,8,.94) 0%,rgba(14,10,8,.78) 34%,rgba(14,10,8,.18) 62%,rgba(14,10,8,0) 78%)}
+.hero .wrap{padding:24px 0 28px}
+.hero h1{font-size:clamp(40px,11.4vw,54px);max-width:none}
+.hero .lead{font-size:17px;margin-top:14px}
+.hero .btn{margin-top:24px;min-height:52px}
+.info{font-size:14px;margin-top:18px;gap:4px 14px}
+.log li{grid-template-columns:minmax(0,1fr) 92px;gap:12px 16px}
+.kt{grid-template-columns:1fr}
+form{grid-template-columns:1fr}
+.mapa{min-height:320px}
+.nav{display:none}
+}
+@media (max-width:420px){.fg{grid-template-columns:1fr 1fr;gap:24px 16px}.krs{gap:16px 28px}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="kx" viewBox="0 0 100 100"><path id="ka" d="M41.5 50 27 4Q50 15 73 4L58.5 50Z"/><use href="#ka" transform="rotate(90 50 50)"/><use href="#ka" transform="rotate(180 50 50)"/><use href="#ka" transform="rotate(270 50 50)"/></symbol>
+<symbol id="ar" viewBox="0 0 20 20"><path d="M3 10h13M11 4.5 16.5 10 11 15.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"/></symbol>
+</svg>
+
+<header class="top" id="top">
+<div class="wrap">
+<a class="brand" href="#start" aria-label="OSP Żurowa - strona główna"><img src="img/logo.webp" width="146" height="136" alt="Logo Jednostki Operacyjno-Technicznej OSP Żurowa"><span><b>OSP Żurowa</b><small>Ochotnicza Straż Pożarna</small></span></a>
+<nav class="menu" aria-label="Menu główne">
+<a href="#aktualnosci">Aktualności</a>
+<a href="#wyjazdy">Wyjazdy</a>
+<a href="#jednostka">Jednostka</a>
+<a href="#wozy">Wozy</a>
+<a href="#mdp">MDP</a>
+<a href="#wsparcie">1,5%</a>
+<a href="#kontakt">Kontakt</a>
+</nav>
+<div class="alarm"><span>W nagłym<br>wypadku</span><b>112</b></div>
+<button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="top"><i></i></button>
+</div>
+</header>
+
+<main id="start">
+<section class="hero" aria-label="OSP Żurowa">
+<picture>
+<source media="(max-width:760px)" srcset="img/hero-m-480.webp 480w, img/hero-m-720.webp 720w, img/hero-m-960.webp 960w" sizes="100vw">
+<img src="img/hero-d-1280.webp" srcset="img/hero-d-960.webp 960w, img/hero-d-1280.webp 1280w" sizes="100vw" width="1280" height="960" alt="Strażacy OSP Żurowa w ubraniach specjalnych przed wozem MAN 369[k]90" fetchpriority="high" decoding="async">
+</picture>
+<div class="wrap"><div class="hero-in">
+<h1>Bo pomaganie mamy we krwi</h1>
+<p class="lead">Ochotnicza Straż Pożarna w Żurowej, w Krajowym Systemie Ratowniczo-Gaśniczym od 2001 roku. Wyjeżdżamy do pożarów, wypadków i wichur o każdej porze dnia i nocy.</p>
+<a class="btn" href="#wyjazdy">Ostatnie wyjazdy<svg aria-hidden="true"><use href="#ar"/></svg></a>
+<p class="info"><span><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Od 1912 roku</span><span><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Żurowa 247, gmina Szerzyny</span><span><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Alarm: 112</span></p>
+</div></div>
+</section>
+
+<section class="sec news" id="aktualnosci">
+<div class="wrap">
+<div class="hd"><div><h2>Aktualności</h2><p class="lead">Akcje, szkolenia i życie jednostki - z remizy w Żurowej.</p></div>
+<div class="nav" data-nav="t-news"><button type="button" data-k="-1" aria-label="Poprzednie"><svg aria-hidden="true"><use href="#ar"/></svg></button><button type="button" data-k="1" aria-label="Następne"><svg aria-hidden="true"><use href="#ar"/></svg></button></div></div>
+<div class="tor" id="t-news" data-tor>
+<article><button class="ph" type="button" data-full="img/n-zjazd-760.webp"><img src="img/n-zjazd-480.webp" srcset="img/n-zjazd-480.webp 480w, img/n-zjazd-760.webp 760w" sizes="(min-width:1100px) 24vw, 80vw" width="480" height="270" alt="Uczestnicy VI Zjazdu Oddziału Powiatowego ZOSP RP w Tarnowie" loading="lazy" decoding="async"></button><time datetime="2026-11-14">14.11.2026</time><h3>VI Zjazd Oddziału Powiatowego ZOSP RP</h3><p>W Rzepienniku Biskupim wybrano władze oddziału w Tarnowie na kadencję 2026-2031.</p></article>
+<article><button class="ph" type="button" data-full="img/n-11lis-760.webp"><img src="img/n-11lis-480.webp" srcset="img/n-11lis-480.webp 480w, img/n-11lis-760.webp 760w" sizes="(min-width:1100px) 24vw, 80vw" width="480" height="270" alt="Biało-czerwona flaga rozłożona przy drodze wśród jesiennego lasu" loading="lazy" decoding="async"></button><time datetime="2026-11-13">13.11.2026</time><h3>Obchody 11 listopada</h3><p>Poczet sztandarowy i MDP na Mszy za Ojczyznę w Żurowej, potem obchody na Gilowej Górze.</p></article>
+<article><button class="ph" type="button" data-full="img/n-mdp-760.webp"><img src="img/n-mdp-480.webp" srcset="img/n-mdp-480.webp 480w, img/n-mdp-760.webp 760w" sizes="(min-width:1100px) 24vw, 80vw" width="480" height="360" alt="Młodzieżowe Drużyny Pożarnicze z gminy Szerzyny po manewrach ratowniczych" loading="lazy" decoding="async"></button><time datetime="2026-11-07">07.11.2026</time><h3>Nocne manewry MDP</h3><p>"Młodzi Ratownicy w Akcji" - sześć scenek pierwszej pomocy dla wszystkich MDP z gminy.</p></article>
+<article><button class="ph" type="button" data-full="img/n-kpp-760.webp"><img src="img/n-kpp-480.webp" srcset="img/n-kpp-480.webp 480w, img/n-kpp-760.webp 760w" sizes="(min-width:1100px) 24vw, 80vw" width="480" height="640" alt="Strażacy udzielają pierwszej pomocy poszkodowanemu podczas manewrów" loading="lazy" decoding="async"></button><time datetime="2026-10-25">25.10.2026</time><h3>Manewry OSP w KPP</h3><p>Liczyły się wiedza, opanowanie i szybkie działanie - gminne manewry w Żurowej.</p></article>
+<article><button class="ph" type="button" data-full="img/n-mamut-760.webp"><img src="img/n-mamut-480.webp" srcset="img/n-mamut-480.webp 480w, img/n-mamut-760.webp 760w" sizes="(min-width:1100px) 24vw, 80vw" width="480" height="640" alt="Nowa motopompa pływająca Mamut przed wozem MAN w garażu remizy" loading="lazy" decoding="async"></button><time datetime="2026-09-18">18.09.2026</time><h3>Nowy sprzęt: motopompa "Mamut"</h3><p>Pompa pływająca 2400 l/min z programu "Bezpieczny Strażak" WFOŚiGW w Krakowie.</p></article>
+<article><button class="ph" type="button" data-full="img/n-plama-760.webp"><img src="img/n-plama-480.webp" srcset="img/n-plama-480.webp 480w, img/n-plama-760.webp 760w" sizes="(min-width:1100px) 24vw, 80vw" width="480" height="360" alt="Strażacy zmywają neutralizator z drogi powiatowej w Żurowej" loading="lazy" decoding="async"></button><time datetime="2026-10-12">12.10.2026</time><h3>Plama na drodze</h3><p>Około 150 metrów oleju na drodze powiatowej - neutralizacja i zmycie jezdni.</p></article>
+</div>
+</div>
+</section>
+
+<section class="sec dk" id="wyjazdy">
+<div class="wrap">
+<div class="hd"><div><h2>Wyjazdy alarmowe</h2><p class="lead">Dysponuje nas Stanowisko Kierowania Komendy Miejskiej PSP w Tarnowie. Wybrane wyjazdy z 2026 roku.</p></div></div>
+<ol class="log">
+<li><div><p class="when">12.10.2026 <span>Żurowa</span></p><h3><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Plama ropopochodna</h3><p>Ok. 150 m oleju na drodze powiatowej. Zamknięty pas ruchu, neutralizatory, zmycie jezdni wodą - prawie 2 godziny.</p></div><button class="ph" type="button" data-full="img/n-plama-760.webp"><img src="img/n-plama-480.webp" width="480" height="360" alt="Neutralizacja plamy oleju na drodze w Żurowej" loading="lazy" decoding="async"></button></li>
+<li><div><p class="when">08.10.2026 <span>Żurowa</span></p><h3><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Powalone drzewo</h3><p>Wiatr powalił drzewo na drodze gminnej, drugie nadłamane zwisało nad jezdnią - zdjęte wyciągarką i pilarką.</p></div><button class="ph" type="button" data-full="img/a-drzewo-960.webp"><img src="img/a-drzewo-360.webp" width="360" height="479" alt="Powalone drzewo na drodze gminnej w Żurowej" loading="lazy" decoding="async"></button></li>
+<li><div><p class="when">19.09.2026 <span>Swoszowa</span></p><h3><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Wypadek motocyklisty</h3><p>Motocyklista uderzył w drzewo. Kwalifikowana pierwsza pomoc, ewakuacja z terenu leśnego i przekazanie ZRM.</p></div><button class="ph" type="button" data-full="img/a-moto-960.webp"><img src="img/a-moto-360.webp" width="360" height="480" alt="Wóz OSP Żurowa na sygnałach podczas akcji nocą" loading="lazy" decoding="async"></button></li>
+<li><div><p class="when">23.07.2026 <span>Żurowa</span></p><h3><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Załączona czujka czadu</h3><p>Nocny wyjazd do domu, w którym zadziałała czujka tlenku węgla.</p></div><button class="ph" type="button" data-full="img/a-czad-960.webp"><img src="img/a-czad-360.webp" width="360" height="480" alt="Strażak OSP Żurowa przy otwartej skrytce wozu" loading="lazy" decoding="async"></button></li>
+<li><div><p class="when">07.07.2026 <span>Żurowa</span></p><h3><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Kot na drzewie</h3><p>Kot od dwóch dni nie potrafił zejść z drzewa - ściągnięty z drabiny.</p></div><button class="ph" type="button" data-full="img/hero-m-720.webp"><img src="img/hero-m-480.webp" width="480" height="640" alt="Strażacy na drabinie przy drzewie, obok wóz OSP Żurowa" loading="lazy" decoding="async"></button></li>
+<li><div><p class="when">30.04.2026 <span>Olszyny</span></p><h3><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Pożar samochodu w garażu</h3><p>Wyjazd w sile dwóch zastępów do pożaru samochodu osobowego.</p></div></li>
+<li><div><p class="when">25.03.2026 <span>Swoszowa</span></p><h3><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Pożar dachu</h3><p>Pożar dachu budynku gospodarczego, dwa zastępy.</p></div><button class="ph" type="button" data-full="img/a-dach-960.webp"><img src="img/a-dach-360.webp" width="360" height="270" alt="Wozy strażackie na polnej drodze podczas akcji w Swoszowej" loading="lazy" decoding="async"></button></li>
+<li><div><p class="when">23.03.2026 <span>Czermna</span></p><h3><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Wypadek w lesie</h3><p>Zadysponowani razem z zestawem poduszek pneumatycznych do zdarzenia przy pracach leśnych.</p></div></li>
+</ol>
+<p class="sum"><span>Rok 2025: <b>33 dyspozycje alarmowe</b> - 14 pożarów i 19 miejscowych zagrożeń, <b>1170 godzin</b> przy zdarzeniach.</span></p>
+</div>
+</section>
+
+<section class="sec" id="jednostka">
+<div class="wrap">
+<div class="two">
+<div class="txt">
+<h2>Od 1912 roku w Żurowej</h2>
+<p class="lead" style="margin-top:20px">14 lipca 1912 roku ks. Michał Syzder zwołał na plebanii zebranie, na którym zawiązano Ochotniczą Straż Pożarną w Żurowej. Do straży wstąpiło 12 mężczyzn, a mieszkańcy zebrali 100 koron na węże i wyposażenie.</p>
+<p style="margin-top:20px">Dwie wojny zabrały nam dwie remizy, a druhowie za każdym razem zaczynali od nowa. W czasie okupacji uratowali przed rekwizycją duży dzwon kościoła w Żurowej. Od 2001 roku jednostka należy do Krajowego Systemu Ratowniczo-Gaśniczego, w 2012 roku obchodziła 100-lecie i otrzymała Złoty Znak Związku.</p>
+<p>Przy straży od 1977 roku działa orkiestra dęta, a w remizie spotykają się mażoretki, dzieci z klubu i całe sołectwo.</p>
+</div>
+<figure class="fig"><img src="img/h-remiza-800.webp" srcset="img/h-remiza-480.webp 480w, img/h-remiza-800.webp 800w" sizes="(min-width:861px) 45vw, 92vw" width="800" height="600" alt="Remiza OSP w Żurowej z wozami MAN i Star przed garażami" loading="lazy" decoding="async"><figcaption>Remiza w Żurowej - MAN 369[k]90 i Star 369[k]58.</figcaption></figure>
+</div>
+<ol class="os">
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg><b>1912</b><span>Założenie OSP, prezes ks. Michał Syzder, naczelnik Józef Mikrut.</span></li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg><b>1922</b><span>Reaktywacja po I wojnie, sikawka czterokołowa typu "wiedeńskiego".</span></li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg><b>1923</b><span>Mieszkańcy Żurowej fundują straży sztandar.</span></li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg><b>1966</b><span>Trzecia remiza, z garażem i salą widowiskową.</span></li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg><b>1968</b><span>Pierwszy samochód pożarniczy w jednostce.</span></li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg><b>2001</b><span>Włączenie do Krajowego Systemu Ratowniczo-Gaśniczego.</span></li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg><b>2015</b><span>Powołanie Młodzieżowej Drużyny Pożarniczej.</span></li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg><b>2016</b><span>Do służby wchodzi MAN TGM 13.290 - 369[k]90.</span></li>
+</ol>
+<div class="arch">
+<figure class="fig"><button class="ph" type="button" data-full="img/h-1958-800.webp"><img src="img/h-1958-480.webp" width="480" height="215" alt="Zawody strażackie w Ołpinach w 1958 roku" loading="lazy" decoding="async"></button><figcaption>Ołpiny 1958 - zawody strażackie, na miejsce zbiórki melduje się OSP Żurowa.</figcaption></figure>
+<figure class="fig"><button class="ph" type="button" data-full="img/h-1977-800.webp"><img src="img/h-1977-480.webp" width="480" height="308" alt="Druhowie OSP Żurowa w mundurach, Dzień Strażaka 1977" loading="lazy" decoding="async"></button><figcaption>Żurowa 1977 - Dzień Strażaka.</figcaption></figure>
+<figure class="fig"><button class="ph" type="button" data-full="img/h-remiza1-800.webp"><img src="img/h-remiza1-480.webp" width="480" height="245" alt="Dawna remiza żurowskich strażaków na archiwalnym zdjęciu" loading="lazy" decoding="async"></button><figcaption>Dawna remiza żurowskich strażaków.</figcaption></figure>
+</div>
+<div class="zarzad">
+<h3>Zarząd na kadencję 2026-2031</h3>
+<dl>
+<div><dt>Prezes</dt><dd>dh Wojciech Bąk</dd></div>
+<div><dt>Naczelnik, wiceprezes</dt><dd>dh Krzysztof Bąk</dd></div>
+<div><dt>Wiceprezes</dt><dd>dh Mirosław Szwandrok</dd></div>
+<div><dt>Zastępca naczelnika</dt><dd>dh Łukasz Studziński</dd></div>
+<div><dt>Skarbnik</dt><dd>dh Mateusz Reczek</dd></div>
+<div><dt>Sekretarz</dt><dd>dh Paweł Ryznar</dd></div>
+<div><dt>Gospodarz</dt><dd>dh Łukasz Jarek</dd></div>
+<div><dt>Przewodniczący Komisji Rewizyjnej</dt><dd>dh Leszek Wójtowicz</dd></div>
+</dl>
+</div>
+</div>
+</section>
+
+<section class="sec g" id="wozy">
+<div class="wrap">
+<div class="hd"><div><h2>Wozy i sprzęt</h2><p class="lead">Trzy samochody w podziale bojowym i sprzęt do pożarów, wypadków drogowych, powodzi i wichur.</p></div></div>
+<div class="cars">
+<article class="car"><button class="ph" type="button" data-full="img/w-man-800.webp"><img src="img/w-man-480.webp" srcset="img/w-man-480.webp 480w, img/w-man-800.webp 800w" sizes="(min-width:1061px) 30vw, (min-width:861px) 46vw, 92vw" width="480" height="269" alt="Wóz ratowniczo-gaśniczy MAN TGM OSP Żurowa na polnej drodze" loading="lazy" decoding="async"></button>
+<div class="car-in"><p class="kr">369<i>K</i>90</p><h3>GBARt MAN TGM 13.290</h3>
+<dl><dt>Rok produkcji</dt><dd>2015</dd><dt>Zabudowa</dt><dd>Stolarczyk</dd><dt>Woda / piana</dt><dd>2500 l / 250 l</dd><dt>Autopompa</dt><dd>3200 l/min</dd><dt>Napęd, miejsca</dt><dd>4x4, 6 (1+1+4)</dd><dt>W jednostce od</dt><dd>04.01.2016</dd></dl></div></article>
+<article class="car"><button class="ph" type="button" data-full="img/w-star-800.webp"><img src="img/w-star-480.webp" srcset="img/w-star-480.webp 480w, img/w-star-800.webp 800w" sizes="(min-width:1061px) 30vw, (min-width:861px) 46vw, 92vw" width="480" height="360" alt="Wóz gaśniczy Star 266 OSP Żurowa przed remizą" loading="lazy" decoding="async"></button>
+<div class="car-in"><p class="kr">369<i>K</i>58</p><h3>GBA Star 266</h3>
+<dl><dt>Rok produkcji</dt><dd>1988, karosacja 2012</dd><dt>Zabudowa</dt><dd>Dragon</dd><dt>Woda / piana</dt><dd>2500 l / 250 l</dd><dt>Autopompa</dt><dd>2500 l/min</dd><dt>Napęd, miejsca</dt><dd>6x6, 6 (1+1+4)</dd><dt>W jednostce od</dt><dd>01.2012</dd></dl></div></article>
+<article class="car"><button class="ph" type="button" data-full="img/w-nissan-860.webp"><img src="img/w-nissan-480.webp" srcset="img/w-nissan-480.webp 480w, img/w-nissan-860.webp 860w" sizes="(min-width:1061px) 30vw, (min-width:861px) 46vw, 92vw" width="480" height="320" alt="Samochód ratownictwa Nissan Pathfinder OSP Żurowa" loading="lazy" decoding="async"></button>
+<div class="car-in"><p class="kr">379<i>K</i>55</p><h3>SLRR Nissan Pathfinder</h3>
+<dl><dt>Karosacja</dt><dd>2023</dd><dt>Napęd</dt><dd>4x4</dd><dt>Miejsca</dt><dd>5 (1+1+3)</dd><dt>W jednostce od</dt><dd>01.2023</dd></dl></div></article>
+</div>
+<div class="eq">
+<h3>Na wyposażeniu</h3>
+<ul>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Zestaw ratownictwa drogowego Holmatro</li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Poduszki pneumatyczne niskiego i wysokiego ciśnienia</li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Aparaty ochrony dróg oddechowych z butlami zapasowymi</li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Torba PSP R1, deska ortopedyczna, szyny Kramera</li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Motopompa pływająca "Mamut" 2400 l/min</li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Pompy szlamowe i pływające</li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Agregaty prądotwórcze z masztami oświetleniowymi</li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Pilarki do drewna, przecinarki do stali i betonu</li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Turbowentylator</li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Sprzęt ratownictwa wodnego i wodery</li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Łączność bezprzewodowa i podhełmowa</li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg>Selektywne wywoływanie i terminal SMS</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section class="sec mdp" id="mdp">
+<div class="wrap">
+<div class="two">
+<div class="txt">
+<h2>Młodzieżowa Drużyna Pożarnicza</h2>
+<p class="lead" style="margin-top:20px">Pierwszą drużynę powołaliśmy 1 lutego 2015 roku. Ćwiczymy wyłącznie na sprzęcie, którego używamy w akcjach - i z MDP wyrastają strażacy, którzy dziś wyjeżdżają do zdarzeń.</p>
+</div>
+<ul class="facts">
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg><span>Opiekun drużyny od 1 stycznia 2026: dh Patryk Zbylut (wcześniej przez 10 lat dh Łukasz Studziński).</span></li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg><span>11 byłych członków MDP jest dziś w szeregach naszej jednostki.</span></li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg><span>W 2026 r. zorganizowaliśmy III Halowe Zawody MDP i Gminne Manewry Ratownicze MDP.</span></li>
+<li><svg class="kx" aria-hidden="true"><use href="#kx"/></svg><span>Gminne zawody 27.09.2026: MDP chłopcy - III miejsce.</span></li>
+</ul>
+</div>
+<div class="nav" data-nav="t-mdp" style="justify-content:flex-end;margin-top:32px"><button type="button" data-k="-1" aria-label="Poprzednie"><svg aria-hidden="true"><use href="#ar"/></svg></button><button type="button" data-k="1" aria-label="Następne"><svg aria-hidden="true"><use href="#ar"/></svg></button></div>
+<div class="tor" id="t-mdp" data-tor style="margin-top:20px">
+<figure><button class="ph" type="button" data-full="img/m-hala-800.webp"><img src="img/m-hala-480.webp" srcset="img/m-hala-480.webp 480w, img/m-hala-800.webp 800w" sizes="(min-width:1800px) 24vw, 440px" width="480" height="360" alt="Młodzieżowe drużyny na hali sportowej w Szerzynach" loading="lazy" decoding="async"></button><figcaption>III Halowe Zawody MDP, Szerzyny, marzec 2026</figcaption></figure>
+<figure><button class="ph" type="button" data-full="img/m-psp-800.webp"><img src="img/m-psp-480.webp" srcset="img/m-psp-480.webp 480w, img/m-psp-800.webp 800w" sizes="(min-width:1800px) 24vw, 440px" width="480" height="360" alt="MDP Żurowa przed drabiną mechaniczną w Komendzie Miejskiej PSP w Tarnowie" loading="lazy" decoding="async"></button><figcaption>MDP w Komendzie Miejskiej PSP w Tarnowie, luty 2026</figcaption></figure>
+<figure><button class="ph" type="button" data-full="img/m-gasnica-800.webp"><img src="img/m-gasnica-480.webp" srcset="img/m-gasnica-480.webp 480w, img/m-gasnica-800.webp 800w" sizes="(min-width:1800px) 24vw, 440px" width="480" height="222" alt="Pokaz gaszenia płonącej tacy gaśnicą" loading="lazy" decoding="async"></button><figcaption>"MDP dla bezpieczeństwa", wrzesień 2026</figcaption></figure>
+<figure><button class="ph" type="button" data-full="img/m-mundury-800.webp"><img src="img/m-mundury-480.webp" srcset="img/m-mundury-480.webp 480w, img/m-mundury-800.webp 800w" sizes="(min-width:1800px) 24vw, 440px" width="480" height="360" alt="Nowe umundurowanie dla MDP rozłożone na stole w remizie" loading="lazy" decoding="async"></button><figcaption>Nowe umundurowanie z programu "Mały Strażak"</figcaption></figure>
+<figure><button class="ph" type="button" data-full="img/m-szczawnica-800.webp"><img src="img/m-szczawnica-480.webp" srcset="img/m-szczawnica-480.webp 480w, img/m-szczawnica-800.webp 800w" sizes="(min-width:1800px) 24vw, 440px" width="480" height="319" alt="Uczestnicy wycieczki MDP na skałach w Pieninach" loading="lazy" decoding="async"></button><figcaption>"Strażacka Podróż", sierpień 2026</figcaption></figure>
+</div>
+</div>
+</section>
+
+<section class="pit" id="wsparcie">
+<div class="pit-in">
+<h2>Nie musisz być strażakiem, żeby zostać bohaterem</h2>
+<p class="lead">Przekaż 1,5% podatku na OSP Żurowa. Ciebie to nic nie kosztuje, a pieniądze wracają do jednostki jako sprzęt ratowniczy.</p>
+<div class="krs"><div><small>W zeznaniu PIT jako OPP wpisz Związek OSP RP</small><b>KRS 0000116212</b></div></div>
+<div class="cel"><small>Cel szczegółowy</small><b>OSP Żurowa, 38-247 Ołpiny, pow. Tarnów, woj. Małopolska</b></div>
+<p class="note">Wystarczą formularze PIT-28, PIT-36, PIT-36L, PIT-37, PIT-38 lub PIT-39. Środki trafiają do nas za pośrednictwem Związku OSP RP.</p>
+</div>
+<div class="pit-ph"><img src="img/s-noc-1280.webp" srcset="img/s-noc-640.webp 640w, img/s-noc-1280.webp 1280w" sizes="(min-width:861px) 48vw, 100vw" width="1280" height="960" alt="Wóz MAN OSP Żurowa nocą na sygnałach świetlnych" loading="lazy" decoding="async"></div>
+</section>
+
+<section class="sec g" id="kontakt">
+<div class="wrap">
+<div class="hd"><div><h2>Kontakt</h2><p class="lead">W nagłym wypadku zawsze dzwoń pod 112. W sprawach jednostki, sali i współpracy - jesteśmy w remizie w Żurowej.</p></div></div>
+<div class="kt">
+<div><h3>Remiza</h3><p><b>Ochotnicza Straż Pożarna w Żurowej</b><br>Żurowa 247, 38-247 Ołpiny</p><p><small>NIP 993-03-32-126, REGON 371011312</small></p><p><a href="https://www.facebook.com/profile.php?id=100064603785480" rel="noopener" target="_blank">Facebook: OSP KSRG Żurowa</a></p></div>
+<div><h3>Telefony</h3><ul>
+<li><small>Prezes - Wojciech Bąk</small><a href="tel:+48146518320">14 651 83 20</a></li>
+<li><small>Naczelnik - Krzysztof Bąk</small><a href="tel:+48146518317">14 651 83 17</a></li>
+<li><small>Strona internetowa - Łukasz Studziński</small><a href="tel:+48146960324">14 696 03 24</a><br><a href="mailto:studzinski2@vp.pl">studzinski2@vp.pl</a></li>
+</ul></div>
+<div><h3>Sala w remizie</h3><p>Sala balowa na ok. 180 osób - wesela, komunie, bale i imprezy okolicznościowe.</p><ul><li><small>Wynajem - gospodarz OSP</small><a href="tel:+48517505771">517 505 771</a></li></ul></div>
+</div>
+<div class="kt2">
+<div class="mapa" id="mapa" data-src="https://maps.google.com/maps?q=%C5%BBurowa%20247%2C%2038-247%20%C5%BBurowa&amp;z=15&amp;output=embed" data-title="Mapa: remiza OSP w Żurowej"></div>
+<form id="form" novalidate>
+<h3>Napisz do nas</h3>
+<label>Imię i nazwisko<input name="imie" autocomplete="name" required></label>
+<label>E-mail<input name="email" type="email" autocomplete="email" required></label>
+<label class="full">Wiadomość<textarea name="tresc" required></textarea></label>
+<button class="btn" type="submit">Wyślij wiadomość<svg aria-hidden="true"><use href="#ar"/></svg></button>
+<p class="msg" id="msg" hidden role="status">Dziękujemy! Na podany e-mail wysłaliśmy potwierdzenie - jeśli go nie widać, zajrzyj do folderu Spam.</p>
+<p class="note2">Podgląd: formularz pokazowy, wiadomość nie jest wysyłana.</p>
+</form>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap">
+<div class="fg">
+<div><div class="fbrand"><img src="img/logo.webp" width="146" height="136" alt="Logo OSP Żurowa" loading="lazy"><span><b>Ochotnicza Straż Pożarna<br>w Żurowej</b></span></div><p style="margin-top:14px">Bo pomaganie mamy we krwi - od 1912 roku.</p></div>
+<div><h4>Adres</h4><p>Żurowa 247<br>38-247 Ołpiny<br>gmina Szerzyny</p></div>
+<div><h4>Na stronie</h4><ul><li><a href="#aktualnosci">Aktualności</a></li><li><a href="#wyjazdy">Wyjazdy</a></li><li><a href="#wozy">Wozy</a></li><li><a href="#mdp">MDP</a></li></ul></div>
+<div><h4>Wsparcie</h4><ul><li><a href="#wsparcie">1,5% podatku</a></li><li><a href="#kontakt">Sala w remizie</a></li><li><a href="https://www.facebook.com/profile.php?id=100064603785480" rel="noopener" target="_blank">Facebook</a></li></ul></div>
+</div>
+<div class="fb"><span>© <span id="rok">2026</span> OSP Żurowa</span><a class="wylinka-badge" href="https://wylinka.pl/?utm_source=ospzurowa.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a></div>
+</div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie">
+<button class="x" type="button" aria-label="Zamknij">×</button>
+<button class="pv" type="button" aria-label="Poprzednie zdjęcie"><svg aria-hidden="true"><use href="#ar"/></svg></button>
+<img alt="">
+<p></p>
+<button class="nx" type="button" aria-label="Następne zdjęcie"><svg aria-hidden="true"><use href="#ar"/></svg></button>
+</div>
+<script src="app.js" defer></script>
+</body>
+</html>
